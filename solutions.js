@@ -15,8 +15,14 @@ function level1Solution() {
 
 function level2Solution() {
 	// USE CHAINED IF STATEMENT
-	console.log("level2");
-	document.getElementById("currentTile").innerHTML = "----"; // Set output text
+	if(column <= 2){
+		document.getElementById("currentTile").innerHTML = "Hills";
+	} else if (column <= 7) {
+		document.getElementById("currentTile").innerHTML = "Sand" // Set output text
+	} else {
+		document.getElementById("currentTile").innerHTML = "Water" // Set output text
+	}
+	
 }
 
 function level3Solution() {
