@@ -15,7 +15,7 @@ function level1Solution() {
 
 function level2Solution() {
 	// USE CHAINED IF STATEMENT
-	
+	console.log("level2");
 	document.getElementById("currentTile").innerHTML = "----"; // Set output text
 }
 
