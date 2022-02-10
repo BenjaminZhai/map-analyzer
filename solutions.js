@@ -6,8 +6,11 @@ let row, column;
 // Solution Functions...
 function level1Solution() {
 	// USE BINARY IF STATEMENT
-	
-	document.getElementById("currentTile").innerHTML = "----"; // Set output text
+	if (column <= 4) {
+		document.getElementById("currentTile").innerHTML = "Sand"; // Set output text
+	} else {
+		document.getElementById("currentTile").innerHTML = "Water" // Set output text
+	}
 }
 
 function level2Solution() {
