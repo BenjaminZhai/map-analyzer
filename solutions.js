@@ -27,8 +27,11 @@ function level2Solution() {
 
 function level3Solution() {
 	// USE BINARY IF STATEMENT
-	
-	document.getElementById("currentTile").innerHTML = "----"; // Set output text
+	if(column >=3 && column <= 7){
+		document.getElementById("currentTile").innerHTML = "Sand";
+	} else {
+		document.getElementById("currentTile").innerHTML = "Hills";
+	}
 }
 
 function level4Solution() {
